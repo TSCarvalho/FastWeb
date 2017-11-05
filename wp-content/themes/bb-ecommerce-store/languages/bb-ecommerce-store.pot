@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BB Ecommerce Store\n"
+"POT-Creation-Date: 2016-02-11 19:00+0530\n"
+"PO-Revision-Date: 2016-02-11 19:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: ThemeShopy <support@themeshopy.com>\n"
+"Language: English\n"
+"MIME-Version: 1.2.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:15
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:16
+msgid "Looks like you have taken a wrong turn"
+msgstr ""
+
+#: 404.php:17
+#: no-results.php:20
+msgid "Don\'t worry &hellip it happens to the best of us."
+msgstr ""
+
+#: 404.php:19
+#: no-results.php:22
+msgid "Back to Home Page"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "'Comments are closed."
+msgstr ""
+
+#: footer.php:30
+msgid "Professional WordPress Themes By"
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:78
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:79
+#: functions.php:88
+#: functions.php:98
+#: functions.php:148
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:87
+msgid "Posts and Pages Sidebar"
+msgstr ""
+
+#: functions.php:97
+msgid "Third Column Sidebar"
+msgstr ""
+
+#: functions.php:107
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:117
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:127
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:137
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:147
+msgid "Static page Sidebar"
+msgstr ""
+
+#: functions.php:108
+#: functions.php:118
+#: functions.php:128
+#: functions.php:137
+msgid "Appears on footer"
+msgstr ""
+
+#: header.php:19
+msgid "Menu"
+msgstr ""
+
+#: image.php:35
+#: image.php:69
+#: image.php:104
+#: image.php:139
+#: image.php:175
+#: image.php:211
+#: page.php:24
+#: single.php:34
+#: single.php:89
+#: single.php:145
+#: single.php:201
+#: single.php:258
+#: single.php:315
+#: page-template/page-with-left-sidebar.php:21
+#: page-template/page-with-right-sidebar.php:19
+msgid "Pages:"
+msgstr ""
+
+#: image.php:40
+#: image.php:74
+#: image.php:109
+#: image.php:144
+#: image.php:180
+#: image.php:216
+msgid "Edit"
+msgstr ""
+
+#: archive.php:41
+#: archive.php:74
+#: archive.php:108
+#: archive.php:142
+#: archive.php:177
+#: archive.php:212
+#: index.php:43
+#: index.php:73
+#: index.php:104
+#: index.php:135
+#: index.php:167
+#: index.php:199
+#: search.php:36
+#: search.php:66
+#: search.php:97
+#: search.php:128
+#: search.php:160
+#: search.php:192
+#: single.php:53
+#: single.php:108
+#: single.php:164
+#: single.php:220
+#: single.php:277
+#: single.php:334
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:42
+#: archive.php:75
+#: archive.php:109
+#: archive.php:143
+#: archive.php:178
+#: archive.php:213
+#: index.php:44
+#: index.php:74
+#: index.php:105
+#: index.php:136
+#: index.php:168
+#: index.php:200
+#: search.php:37
+#: search.php:67
+#: search.php:98
+#: search.php:129
+#: search.php:161
+#: search.php:193
+#: single.php:50
+#: single.php:105
+#: single.php:160
+#: single.php:217
+#: single.php:274
+#: single.php:331
+msgid "Next page"
+msgstr ""
+
+#: archive.php:43
+#: archive.php:76
+#: archive.php:110
+#: archive.php:144
+#: archive.php:179
+#: archive.php:214
+#: index.php:45
+#: index.php:75
+#: index.php:106
+#: index.php:137
+#: index.php:169
+#: index.php:201
+#: page.php:28
+#: search.php:40
+#: search.php:38
+#: search.php:68
+#: search.php:99
+#: search.php:130
+#: search.php:162
+#: search.php:194
+#: single.php:38
+#: single.php:93
+#: single.php:149
+#: single.php:205
+#: single.php:262
+#: single.php:319
+#: page-template/page-with-left-sidebar.php:25
+#: page-template/page-with-right-sidebar.php:23
+msgid "page"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:15
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:17
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: search.php:16
+#: search.php:46
+#: search.php:77
+#: search.php:108
+#: search.php:140
+#: search.php:172
+#, php-format
+msgid "Resultados para: %s"
+msgstr ""
+
+#: searchform.php:10
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:17
+msgid "Meta"
+msgstr ""
+
+#: single.php:51
+#: single.php:106
+#: single.php:161
+#: single.php:218
+#: single.php:275
+#: single.php:332
+msgid "Next post:"
+msgstr ""
+
+#: single.php:54
+#: single.php:109
+#: single.php:165
+#: single.php:221
+#: single.php:276
+#: single.php:334
+msgid "Previous post:"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Description of what this panel does."
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Three Columns"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Four Columns"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Select Slide Image Page"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Products"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "This section will appear below the slider."
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Add some text for footer like copyright etc."
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "BB Ecommerce Store Pro"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Go Pro"
+msgstr ""
+
+#: page-template/custom-home-page.php:60
+msgid "Learn More"
+msgstr ""

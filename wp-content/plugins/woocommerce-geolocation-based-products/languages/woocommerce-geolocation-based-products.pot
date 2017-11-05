@@ -1,0 +1,784 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Geolocation Based Products\n"
+"POT-Creation-Date: 2017-04-18 20:34-0800\n"
+"PO-Revision-Date: 2017-04-18 20:34-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-geolocation-based-products-admin.php:55
+#: includes/class-wc-geolocation-based-products-admin.php:254
+#: includes/class-wc-geolocation-based-products-admin.php:324
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:171
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:209
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:191
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:247
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:191
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:247
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:205
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:261
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:205
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:261
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:224
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:224
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:224
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:224
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:230
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:284
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:230
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:284
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:230
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:284
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:230
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:284
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:251
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:321
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:251
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:321
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:251
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:321
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:55
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:251
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:321
+msgid "Select Product Categories"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:56
+#: includes/class-wc-geolocation-based-products-admin.php:269
+#: includes/class-wc-geolocation-based-products-admin.php:340
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:186
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:225
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:206
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:263
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:206
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:263
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:277
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:277
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:239
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:296
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:239
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:296
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:239
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:296
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:239
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:296
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:59
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:245
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:300
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:59
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:245
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:300
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:59
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:245
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:300
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:59
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:245
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:300
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:266
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:337
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:266
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:337
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:266
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:337
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:56
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:266
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:337
+msgid "Search Products by Name"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:57
+#: includes/class-wc-geolocation-based-products-admin.php:275
+#: includes/class-wc-geolocation-based-products-admin.php:358
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:355
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:355
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:355
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:57
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:272
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:355
+msgid "Show"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:58
+#: includes/class-wc-geolocation-based-products-admin.php:274
+#: includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:271
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:354
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:271
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:354
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:58
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:271
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:354
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:58
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:271
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:354
+msgid "Hide"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:81
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:60
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:60
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:60
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:74
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:74
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:81
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:81
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:81
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:81
+msgid "Geolocation Products"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:81
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:60
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:60
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:60
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:74
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:74
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:76
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:82
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:81
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:81
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:81
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:81
+msgid "Geolocation"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:100
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:100
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:100
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:100
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:100
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:153
+msgid "Settings have been saved."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:176
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:176
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:176
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:176
+msgid ""
+"Sort Rules. You can drag and drop the rules. Rules towards the bottom will "
+"supercede rules above."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:180
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:140
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:146
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:146
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:160
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:160
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:177
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:177
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:177
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:177
+msgid "Remove"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:182
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:179
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:179
+msgid "Disable"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:184
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:181
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:181
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:181
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:181
+msgid "Check the box if you want to disable this rule."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:187
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:184
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:184
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:184
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:184
+msgid "ISO Country Code"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:189
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:186
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:186
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:186
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:186
+msgid ""
+"A 2 letter ISO country code, e.g. US. Leaving blank matches all countries."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:192
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:189
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:189
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:189
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:189
+msgid "ISO Region Code"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:193
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:190
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:190
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:190
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:190
+msgid ""
+"A ISO region code for your state or province, e.g. CA for California. "
+"Leaving blank matches all regions."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:196
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:152
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:152
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:173
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:173
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:173
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:173
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:193
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:193
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:193
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:193
+msgid "City"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:195
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:195
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:195
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:195
+msgid "A city name. Leaving blank matches all cities."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:201
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:198
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:198
+msgid "Product Categories"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:200
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:200
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:200
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:200
+msgid "Product Categories to show/hide."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:206
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:203
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:203
+msgid "Products"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:208
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:205
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:205
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:205
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:205
+msgid "Products to show/hide."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:211
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:208
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:208
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:208
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:208
+msgid "Show/Hide"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:213
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:158
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:158
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:188
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:188
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:188
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:188
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:194
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:194
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:194
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:194
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:210
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:210
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:210
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:210
+msgid "Test Mode"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:215
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:158
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:158
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:190
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:190
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:190
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:190
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:196
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:196
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:196
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:196
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:212
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:212
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:212
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:212
+msgid ""
+"Check the box to enable test mode for this rule. Leave blank to disable."
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:222
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:152
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:178
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:178
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:197
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:197
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:197
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:197
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:203
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:219
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:219
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:219
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:219
+msgid "Insert row"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:223
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:153
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:165
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:165
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:198
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:204
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:204
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:204
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:204
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:220
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:220
+msgid "Remove selected row(s)"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-admin.php:404
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:287
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:324
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:324
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:338
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:338
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:357
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-admin.php:401
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-admin.php:401
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-admin.php:401
+#: trunk/includes/class-wc-geolocation-based-products-admin.php:401
+msgid "WooCommerce Geolocation Settings"
+msgstr ""
+
+#: includes/class-wc-geolocation-based-products-geolocate.php:58
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-geolocate.php:58
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-geolocate.php:58
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-geolocate.php:58
+#: tags/1.5.0/includes/class-wc-geolocation-based-products-geolocate.php:58
+#: tags/1.5.1/includes/class-wc-geolocation-based-products-geolocate.php:58
+#: tags/1.5.2/includes/class-wc-geolocation-based-products-geolocate.php:58
+#: trunk/includes/class-wc-geolocation-based-products-geolocate.php:58
+msgid "Once Weekly"
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:142
+msgid "Country&nbsp;Code"
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:142
+msgid "A 2 letter country code, e.g. US. Leave blank to disable."
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:144
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:154
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:154
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:178
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:178
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:178
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:178
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:184
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:184
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:184
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:184
+msgid "Product Categories to Hide"
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:144
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:154
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:154
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:168
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:168
+msgid ""
+"Select all the product categories in which you want to hide for this country."
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:146
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:156
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:156
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:183
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:183
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:183
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:183
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:189
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:189
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:189
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:189
+msgid "Products to Hide"
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:146
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:156
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:156
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:185
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:185
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:185
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:185
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:191
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:191
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:191
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:191
+msgid "Search for the products in which you want to hide for this country."
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:167
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:205
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:254
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:235
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:179
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:235
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:193
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:249
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:193
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:249
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:212
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:268
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:212
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:268
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:212
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:268
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:212
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:268
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:218
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:218
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:218
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:55
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:218
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:272
+msgid "2 Letter Country Code"
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:252
+msgid "Simulate Country Test"
+msgstr ""
+
+#: tags/1.0.0/includes/class-wc-geolocation-based-products-admin.php:253
+msgid ""
+"Enter a 2 letter country code to simulate the test.  Remember to remove when "
+"done testing."
+msgstr ""
+
+#: tags/1.0.0/woocommerce-geolocation-based-products.php:79
+#: tags/1.1.0/woocommerce-geolocation-based-products.php:79
+msgid ""
+"WooCommerce Geolocation Based Products Plugin requires WooCommerce to be "
+"installed and active."
+msgstr ""
+
+#: tags/1.0.0/woocommerce-geolocation-based-products.php:90
+#: tags/1.1.0/woocommerce-geolocation-based-products.php:90
+#: tags/1.1.1/woocommerce-geolocation-based-products.php:93
+#: tags/1.1.2/woocommerce-geolocation-based-products.php:106
+#: tags/1.1.3/woocommerce-geolocation-based-products.php:106
+#: tags/1.2.0/woocommerce-geolocation-based-products.php:108
+#: tags/1.3.0/woocommerce-geolocation-based-products.php:108
+#: tags/1.3.1/woocommerce-geolocation-based-products.php:108
+#: tags/1.3.2/woocommerce-geolocation-based-products.php:107
+#: tags/1.4.0/woocommerce-geolocation-based-products.php:111
+#: tags/1.4.1/trunk/woocommerce-geolocation-based-products.php:111
+#: tags/1.4.1/woocommerce-geolocation-based-products.php:111
+#: tags/1.4.2/woocommerce-geolocation-based-products.php:111
+#: tags/1.5.0/woocommerce-geolocation-based-products.php:131
+#: tags/1.5.1/woocommerce-geolocation-based-products.php:131
+#: tags/1.5.2/woocommerce-geolocation-based-products.php:131
+#: trunk/woocommerce-geolocation-based-products.php:131
+#: woocommerce-geolocation-based-products.php:126
+msgid "Settings"
+msgstr ""
+
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:148
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:148
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:170
+msgid "Country Code"
+msgstr ""
+
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:148
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:148
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:162
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:172
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:172
+msgid ""
+"A 2 letter country code, e.g. US.  This is required. Leave blank to disable."
+msgstr ""
+
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:150
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:183
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:239
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:150
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:183
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:239
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:197
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:253
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:197
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:253
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:169
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:216
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:169
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:216
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:169
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:216
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:169
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:216
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:272
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:222
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:222
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:222
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:57
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:222
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:276
+msgid "Region Code"
+msgstr ""
+
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:150
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:150
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:164
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:170
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:176
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:176
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:176
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:176
+msgid ""
+"A region code for your state or province, e.g. CA for California. Leave "
+"blank to disable."
+msgstr ""
+
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:152
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:152
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:166
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:175
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:181
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:181
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:181
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:181
+msgid "A city name. Leave blank to disable."
+msgstr ""
+
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:187
+#: tags/1.1.0/includes/class-wc-geolocation-based-products-admin.php:243
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:187
+#: tags/1.1.1/includes/class-wc-geolocation-based-products-admin.php:243
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:201
+#: tags/1.1.2/includes/class-wc-geolocation-based-products-admin.php:257
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:201
+#: tags/1.1.3/includes/class-wc-geolocation-based-products-admin.php:257
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:220
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:276
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:226
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:226
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:226
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:280
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:56
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:226
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:280
+msgid "City Name"
+msgstr ""
+
+#: tags/1.1.1/woocommerce-geolocation-based-products.php:82
+#: tags/1.1.2/woocommerce-geolocation-based-products.php:95
+#: tags/1.1.3/woocommerce-geolocation-based-products.php:95
+#, php-format
+msgid ""
+"WooCommerce Geolocation Based Products Plugin requires WooCommerce to be "
+"installed and active. %s"
+msgstr ""
+
+#: tags/1.2.0/includes/class-wc-geolocation-based-products-admin.php:180
+#: tags/1.3.0/includes/class-wc-geolocation-based-products-admin.php:180
+#: tags/1.3.1/includes/class-wc-geolocation-based-products-admin.php:180
+#: tags/1.3.2/includes/class-wc-geolocation-based-products-admin.php:180
+#: tags/1.4.0/includes/class-wc-geolocation-based-products-admin.php:186
+#: tags/1.4.1/includes/class-wc-geolocation-based-products-admin.php:186
+#: tags/1.4.1/trunk/includes/class-wc-geolocation-based-products-admin.php:186
+#: tags/1.4.2/includes/class-wc-geolocation-based-products-admin.php:186
+msgid "Product Categories to Hide."
+msgstr ""
+
+#: tags/1.2.0/woocommerce-geolocation-based-products.php:97
+#: tags/1.3.0/woocommerce-geolocation-based-products.php:97
+#: tags/1.3.1/woocommerce-geolocation-based-products.php:97
+#: tags/1.3.2/woocommerce-geolocation-based-products.php:96
+#: tags/1.4.0/woocommerce-geolocation-based-products.php:100
+#: tags/1.4.1/trunk/woocommerce-geolocation-based-products.php:100
+#: tags/1.4.1/woocommerce-geolocation-based-products.php:100
+#: tags/1.4.2/woocommerce-geolocation-based-products.php:100
+#: tags/1.5.0/woocommerce-geolocation-based-products.php:120
+#: tags/1.5.1/woocommerce-geolocation-based-products.php:120
+#: tags/1.5.2/woocommerce-geolocation-based-products.php:120
+#: trunk/woocommerce-geolocation-based-products.php:120
+#: woocommerce-geolocation-based-products.php:115
+#, php-format
+msgid ""
+"WooCommerce Geolocation Based Products Plugin requires WooCommerce to be "
+"installed and active. You can download %s here."
+msgstr ""
